@@ -1,0 +1,8 @@
+version: 1
+commands:
+  - build: npm install
+  - start: npm start
+environments:
+  production:
+    ports:
+      - 3000
